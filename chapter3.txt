@@ -1,0 +1,10 @@
+Terminal:
+
+git add //file name// -adds that specific file to git repository 
+git add .  -adds all files 
+
+git status - checks what's files or updated files are not in the repository 
+
+git commit -m "message" -commits your changes or files and creates a version with a message (you can go back to specific versions if needed or delete specific versions)
+
+git log  -shows all logs/ commits/ messages
