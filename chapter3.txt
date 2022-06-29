@@ -9,10 +9,11 @@ git commit -m "message" -commits your changes or files and creates a version wit
 
 git log  -shows all logs/ commits/ messages
 
-git restore "file name" -restore selected file back to most previous version committed 
+git restore "file name"  - restore selected file back to most previous version committed 
 
 git diff "file name"  -lets you see the difference between version you're working on and last committed version
  
+<<<<<<< HEAD
 git clone "url"  - clone a project onto your local files
 
 git branch "name"  - creates a new branch * default branch is master branch *
@@ -22,3 +23,14 @@ git branch  - allows you to see all your branches and which branch you are curre
 git merge "branch name"  - merges the branch named to the head branch
 
 git checkout "branch name"  - switch over to branch named
+=======
+git clone "url"  - clone a project onto your local files 
+
+git branch "branch name"  - creates a new branch 
+
+git branch  - shows all branches and branch you are currently on 
+
+git checkout "branch name"  - switch to branch 
+
+git merge "branch name"  - merges selected branch to branch you are on currently
+>>>>>>> alien-plot
