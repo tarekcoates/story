@@ -13,3 +13,4 @@ git restore "file name" -restore selected file back to most previous version com
 
 git diff "file name"  -lets you see the difference between version you're working on and last committed version
  
+git clone "url"  - clone a project onto your local files
